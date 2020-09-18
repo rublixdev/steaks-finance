@@ -23,9 +23,9 @@ export const INTEGERS = {
 }
 
 export const addressMap = {
-  UNIRouter: '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
-  uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',
-  uniswapFactoryV2: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f',
+  UNIRouter: '0xA64A150C56e4DD59150C3639643DbeC1dEffd66d',   // TODO: change on migration
+  uniswapFactory: '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95',  // uniswap v1
+  uniswapFactoryV2: '0x8B220B637c8486F8708Cc6244eD576A55c66c01A', // TODO: change on migration
   YFI: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
   YCRV: '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8',
   UNIAmpl: '0xc5be99a02c6857f9eac67bbce58df5572498f40c',
@@ -40,7 +40,7 @@ export const addressMap = {
 }
 
 export const uniswapPools = {
-  HEDG_ETH: '0xDA73Ce7778C87131B6aD4210999De8d93B0a28e9',
+  HEDG_ETH: '0xf7cB0e9483659b8A29288c74D9f4ecB0a6106E72', // example change
   LINK_ETH: '0xa2107FA5B38d9bbd2C461D6EDf11B11A50F6b974',
   SNX_ETH: '0x43AE24960e5534731Fc831386c07755A2dc33D47',
   LEND_ETH: '0xaB3F9bF1D81ddb224a2014e98B238638824bCf20',
